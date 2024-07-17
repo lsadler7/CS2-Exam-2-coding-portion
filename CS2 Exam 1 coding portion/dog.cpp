@@ -3,17 +3,7 @@
 #include <string>
 
 using namespace std;
-/*Design and implement a class called Dog that contains the dog’s age, name, and breed.  
-Create a constructor that accept these three pieces of data.  
-Include a function that 
-returns the dog’s age in “person years” (seven times the dog’s age).  
-Create a function that returns a description of the dog.  
-Create functions for two different tricks the dog knows.  
-Each of these should return a string.  For example:  string playDead() might return the string 
-“Fido rolls onto its back with its paws in the air.”
 
-Demonstrate the Dog class by creating two and printing their information and tricks to the console.
-*/
 dog::dog()
 {
 }

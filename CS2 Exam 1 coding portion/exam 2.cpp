@@ -4,6 +4,7 @@
 
 #include <iostream>
 #include "dog.h"
+#include "date.h"
 using namespace std;
 
 int main()
@@ -25,6 +26,19 @@ int main()
 		<< dog2.trickPaws << endl
 		<< dog2.trickSpeak << endl;
 
+	date datedefault;
+	cout << datedefault.slashFormat << endl
+		<< datedefault.USFormat << endl
+		<< datedefault.nonUSFormat << endl;
+	date today;
+	today.getStringMonth[6];
+	today.integerDay(17);
+	today.integerMonth(7);
+	today.integerYear(2024);
+	cout << today.slashFormat << endl
+		<< today.USFormat << endl
+		<< today.nonUSFormat << endl;
 
+	//I feel defeated. :(
 
 }
